@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.3.0">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>70</x>
+      <y>220</y>
+      <w>340</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;thing&gt;&gt;
+XyzLanguageProcessor
+--
++isValid(word: const std::string&amp;) const: bool
+bg=green
+group=1</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>220</x>
+      <y>150</y>
+      <w>30</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;.
+group=1</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;70.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>70</x>
+      <y>110</y>
+      <w>340</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>/LanguageProcessor/
+--
+/+isValid(word: const std::string&amp;) const: bool/
+bg=green
+group=1</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLPackage</id>
+    <coordinates>
+      <x>10</x>
+      <y>60</y>
+      <w>480</w>
+      <h>260</h>
+    </coordinates>
+    <panel_attributes>csc232
+--
+bg=orange
+group=1</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLNote</id>
+    <coordinates>
+      <x>510</x>
+      <y>250</y>
+      <w>220</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>  TODO: Implement isValid()
+bg=yellow</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>400</x>
+      <y>260</y>
+      <w>130</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>lt=().</panel_attributes>
+    <additional_attributes>110.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+</diagram>

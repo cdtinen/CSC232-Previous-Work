@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.3.0">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>370</x>
+      <y>70</y>
+      <w>390</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;abstract&gt;&gt;
+Palindrome
+--
+/+isPalindrome(text: const std::string&amp;): bool/
+/+makePalindrome(text: const std::string&amp;): std::string/
++~Palindrome() =  default</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>370</x>
+      <y>260</y>
+      <w>390</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;thing&gt;&gt;
+Palindrominator
+--
+append_: bool
+--
++Palindrominator(append: bool = true)
++isPalindrome(text: const std::string&amp;): bool
++makePalindrome(text: const std::string&amp;): std::string
++~Palindrominator() =  default</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>560</x>
+      <y>170</y>
+      <w>30</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;90.0</additional_attributes>
+  </element>
+</diagram>

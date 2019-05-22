@@ -1,0 +1,5 @@
+C:/Users/profe/CLionProjects/CSC232/2019-01/lab04-resizable-arrays/generator/CMakeFiles/edit_cache.dir
+C:/Users/profe/CLionProjects/CSC232/2019-01/lab04-resizable-arrays/generator/CMakeFiles/lab04.dir
+C:/Users/profe/CLionProjects/CSC232/2019-01/lab04-resizable-arrays/generator/CMakeFiles/lab04Demo.dir
+C:/Users/profe/CLionProjects/CSC232/2019-01/lab04-resizable-arrays/generator/CMakeFiles/lab04Test.dir
+C:/Users/profe/CLionProjects/CSC232/2019-01/lab04-resizable-arrays/generator/CMakeFiles/rebuild_cache.dir
